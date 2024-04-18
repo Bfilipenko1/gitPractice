@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "First node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start": "parcel index.html",
+    "build": "npm run clean && parcel build +.html --public-url ./",
+    "clean": "rimraf dist"
+  },
+  "author": "BeN",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
